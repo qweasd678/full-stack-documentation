@@ -1,0 +1,92 @@
+.montserrat-medium {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+* {
+    background: #1a1a1a;
+    color: #f1f0f0;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+table {
+    margin: 0 auto;
+    width: 100%; /* Ensure the table takes up the full width of its container */
+    max-width: 100%; /* Prevent the table from exceeding the screen width */
+    border-collapse: collapse;
+}
+
+pre, code {
+    border: none; /* Remove any borders */
+}
+
+code { font-family: "Courier New", Courier, monospace; font-size: 1.2em; }
+
+th {
+    background: linear-gradient(#3a4659, #2b3340);
+    border: 3px solid #32394f; /* Fallback solid border color */
+    border-style: solid; /* Ensure border style is set */
+    border-image: linear-gradient(#2b3340, #3a4659) 1; /* Apply gradient border */
+    border-image-slice: 1; /* Ensure the gradient is sliced correctly */
+    color: #e9e9e9;
+    padding: 10px; /* Add padding for better spacing */
+    padding-left: 7px; /* Add extra padding to the left for better readability */
+    text-align: left; /* Align text to the left for better readability */
+}
+
+td {
+    background: linear-gradient(#e2e2e2, #bdbdbd);
+    border: 2px solid #d3d3d3; /* Fallback solid border color */
+    border-style: solid; /* Ensure border style is set */
+    border-image: linear-gradient(#bdbdbd, #e2e2e2) 1; /* Apply gradient border */
+    border-image-slice: 1; /* Ensure the gradient is sliced correctly */
+    color: #252525;
+    padding-left: 7px; /* Add extra padding to the left for better readability */
+    text-align: left; /* Align text to the left for better readability */
+}
+
+/* small visual tweak for the example column */
+td.example {
+    width: auto; /* Allow the column to expand based on content */
+    vertical-align: center; /* Center content vertically */
+    padding-left: 0px;
+}
+
+th.example {
+    width: auto; /* Allow the column to expand based on content */
+    vertical-align: center; /* Center content vertically */
+    padding-left: 7px;
+}
+
+.demo-table { margin-top: 1rem; }
+
+/* code example styling */
+.example-cell { display: flex; gap: 8px; align-items: flex-start; /* Align items to the top */
+    justify-content: flex-start; /* Ensure content aligns to the left */
+    flex-wrap: wrap; /* Allow wrapping if content overflows */
+}
+.example-cell pre {
+    margin: 0;
+    background: transparent;
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    overflow: auto;
+    max-width: 100%; /* Prevent pre from exceeding the cell width */
+    white-space: pre-wrap; /* Allow wrapping inside pre */
+}
+.copy-btn { background: linear-gradient(#596c8d, #313b4f); color: #fff; border: 2px solid #455a6f; padding: 7px 5px; margin: 3px 3px; border-radius: 0px; cursor: pointer; align-self: flex-end; /* Align the button to the bottom */
+}
+.copy-btn:active { transform: translateY(2px); }
+td {
+    min-height: 50px;
+}
+pre {
+    white-space: pre-wrap;
+}
+th, td {
+    word-wrap: break-word; /* Break long words to prevent overflow */
+}
