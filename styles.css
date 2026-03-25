@@ -90,3 +90,6 @@ pre {
 th, td {
     word-wrap: break-word; /* Break long words to prevent overflow */
 }
+h1 {
+    font-caps: small-caps;
+}
