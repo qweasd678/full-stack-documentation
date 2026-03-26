@@ -67,6 +67,15 @@ th.example {
 .example-cell { display: flex; gap: 8px; align-items: flex-start; /* Align items to the top */
     justify-content: flex-start; /* Ensure content aligns to the left */
     flex-wrap: wrap; /* Allow wrapping if content overflows */
+    font-size: 14px;
+    line-height: 1.6;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    max-width: 600px;
+    margin: 40px auto;
+    overflow-x: auto;
+    color: #f8f8f2;
+    padding: 20px;
+    border-radius: 10px;
 }
 .example-cell pre {
     margin: 0;
@@ -104,4 +113,3 @@ h1 {
   padding-left: 7px; /* Add extra padding to the left for better readability */
   text-align: left; /* Align text to the left for better readability */
 }
-
