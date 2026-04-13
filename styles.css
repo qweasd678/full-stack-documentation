@@ -100,9 +100,13 @@ h1 {
   background: linear-gradient(#e2e2e2, #bdbdbd);
   border: 2px solid #d3d3d3; /* Fallback solid border color */
   border-style: solid; /* Ensure border style is set */
-  border-image: linear-gradient(#bdbdbd, #e2e2e2) 1; /* Apply gradient border */
-  border-image-slice: 1; /* Ensure the gradient is sliced correctly */
   color: #252525;
-  padding-left: 7px; /* Add extra padding to the left for better readability */
+  text-align: left; /* Align text to the left for better readability */
+}
+.pseudohover {
+  background: linear-gradient(#e2e2e2, #bdbdbd);
+  border: 2px solid #d3d3d3; /* Fallback solid border color */
+  border-style: solid; /* Ensure border style is set */
+  color: green;
   text-align: left; /* Align text to the left for better readability */
 }
