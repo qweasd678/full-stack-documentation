@@ -107,6 +107,13 @@ h1 {
   background: linear-gradient(#e2e2e2, #bdbdbd);
   border: 2px solid #d3d3d3; /* Fallback solid border color */
   border-style: solid; /* Ensure border style is set */
+  color: #252525;
+  text-align: left; /* Align text to the left for better readability */
+}
+.pseudohover:hover {
+  background: linear-gradient(#e2e2e2, #bdbdbd);
+  border: 2px solid #d3d3d3; /* Fallback solid border color */
+  border-style: solid; /* Ensure border style is set */
   color: green;
   text-align: left; /* Align text to the left for better readability */
 }
