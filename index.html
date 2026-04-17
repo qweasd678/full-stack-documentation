@@ -472,7 +472,7 @@ h1 {
 	        <tr>
                 <td>default</td>
                 <td>
-Changes to default cursor when hovered over the <a>element</a>. <br>
+Changes to default cursor when hovered over the <a>element</a>. No :hover pseudo-class element required<br>
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRICWwtUUOlWs6Rvyn4XsEZw3R87zNQcjYyRQ&s" alt="Default cursor" width="60px" />	
 				</td>
 				<td class="example">
@@ -480,6 +480,23 @@ Changes to default cursor when hovered over the <a>element</a>. <br>
                         <pre><code>
 * {
     cursor: default;
+}
+                        </code></pre>
+                        <button class="copy-btn" aria-label="Copy example">Copy</button>
+                    </div>
+                </td>
+	        </tr>
+			<tr>
+                <td>pointer</td>
+                <td>
+Changes to hand cursor when hovered over the <a class="pointercursor">element</a>. No :hover pseudo-class element required<br>
+<img src="https://toppng.com/uploads/preview/vaporwave-clipart-windows-98-windows-10-hand-cursor-11563127798dziagakj0q.png" alt="Default cursor" width="60px" />	
+				</td>
+				<td class="example">
+                    <div class="example-cell">
+                        <pre><code>
+* {
+    cursor: pointer;
 }
                         </code></pre>
                         <button class="copy-btn" aria-label="Copy example">Copy</button>
