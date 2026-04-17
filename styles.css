@@ -112,5 +112,5 @@ a {
   color: green;
 }
 .pointercursor {
-  cursor: pointer;
+  cursor: pointer !important;
 }
