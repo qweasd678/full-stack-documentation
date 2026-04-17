@@ -111,3 +111,6 @@ a {
 .pseudohover:hover {
   color: green;
 }
+.pointercursor {
+  cursor: pointer;
+}
