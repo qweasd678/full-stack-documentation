@@ -505,7 +505,7 @@ Changes to hand cursor when hovered over the <a class="pointercursor">element</a
 	        </tr>
 	    </tbody>
 	</table>
-	<h3>Pseudo-class elements</h3>
+	<h3>Pseudo-class elements "in this exact order to cascade properly"</h3>
 		<table>
 	    <thead>
 	        <tr>
@@ -516,6 +516,20 @@ Changes to hand cursor when hovered over the <a class="pointercursor">element</a
 	    </thead>
 	    <tbody>
 	        <tr>
+                <td>:visited</td>
+                <td>Changes style to the <a href="www.google.com" class="linktofollow">link</a> when visited.</td>
+                <td class="example">
+                    <div class="example-cell">
+                        <pre><code>
+*:visited {
+    color: green;
+}
+                        </code></pre>
+                        <button class="copy-btn" aria-label="Copy example">Copy</button>
+                    </div>
+                </td>
+	        </tr>
+			<tr>
                 <td>:hover</td>
                 <td>Changes style to the <a class="pseudohover">element</a> when cursor is at position.</td>
                 <td class="example">
