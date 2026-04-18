@@ -102,7 +102,7 @@ a {
   border-style: solid; /* Ensure border style is set */
   color: #252525;
   text-align: left; /* Align text to the left for better readability */
-  cursor: default
+  cursor: default;
 }
 
 .small_caps {
@@ -113,4 +113,15 @@ a {
 }
 .pointercursor {
   cursor: pointer !important;
+}
+.linktofollow {
+  color: blue !important;
+  text-decoration: underline;
+  cursor: pointer !important;
+}
+.linktofollow:visited {
+  color: green;
+}
+.underline {
+  text-decoration: underline;
 }
