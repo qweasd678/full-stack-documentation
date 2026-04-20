@@ -115,12 +115,12 @@ a {
   cursor: pointer !important;
 }
 .linktofollow {
-  color: blue !important;
+  color: blue;
   text-decoration: underline;
   cursor: pointer !important;
 }
 .linktofollow:visited {
-  color: green;
+  color: green !important;
 }
 .underline {
   text-decoration: underline;
