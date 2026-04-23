@@ -11,6 +11,18 @@
   }
 }
 
+td:first-child {
+    background: linear-gradient(#3a4659, #2b3340);
+    border: 3px solid #32394f; /* Fallback solid border color */
+    border-style: solid; /* Ensure border style is set */
+    border-image: linear-gradient(#2b3340, #3a4659) 1; /* Apply gradient border */
+    border-image-slice: 1; /* Ensure the gradient is sliced correctly */
+    color: #e9e9e9;
+    padding: 10px; /* Add padding for better spacing */
+    padding-left: 7px; /* Add extra padding to the left for better readability */
+    text-align: left; /* Align text to the left for better readability */
+}
+
 .montserrat-medium {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
