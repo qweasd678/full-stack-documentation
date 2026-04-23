@@ -8,6 +8,7 @@
   td {
     display: block;
     width: 100%; /* Ensures it spans the full width */
+    box-sizing: border-box; /* Includes padding in the width calculation */
   }
 
   td:first-child {
