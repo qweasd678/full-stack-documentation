@@ -1,3 +1,16 @@
+@media (max-width: 600px) {
+  /* 1. Hide the original header row */
+  thead {
+    display: none; 
+  }
+
+  /* 2. Force every cell to be a block that takes up its own line */
+  td {
+    display: block;
+    width: 100%; /* Ensures it spans the full width */
+  }
+}
+
 .montserrat-medium {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
