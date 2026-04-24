@@ -11,6 +11,13 @@
     box-sizing: border-box; /* Includes padding in the width calculation */
   }
 
+  td:second-child {
+    display: flex;            /* Turns the cell into a flex container */
+    justify-content: center;   /* Centers text horizontally */
+    align-items: center;       /* Centers text vertically */
+    min-height: 30px;
+  }
+
   td:first-child {
       background: linear-gradient(#3a4659, #2b3340);
       border: 3px solid #32394f; /* Fallback solid border color */
