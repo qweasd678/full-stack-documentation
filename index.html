@@ -572,6 +572,50 @@ Changes to hand cursor when hovered over the <a class="pointercursor">element</a
 	        </tr>
 	    </tbody>
 	</table>
+	<h3>Design concepts</h3>
+	<h4>Button design</h4>
+		<table>
+	    <thead>
+	        <tr>
+                <th>Concept</th>
+                <th>Description</th>
+                <th>Example</th>
+	        </tr>
+	    </thead>
+	    <tbody>
+	        <tr>
+                <td>Skeuomorphic styling</td>
+                <td>
+A 3D effect on the button. Traditional software used this realistic styling to teach users to press a button.<br>
+<button class="skeuomorphic">Try now</button>
+				</td>
+                <td class="example">
+                    <div class="example-cell">
+                        <pre><code>
+*:visited {
+    color: green;
+}
+                        </code></pre>
+                        <button class="copy-btn" aria-label="Copy example">Copy</button>
+                    </div>
+                </td>
+	        </tr>
+			<tr>
+                <td data-label="Element">:hover</td>
+                <td data-label="Description">Changes style to the <a class="pseudohover">element</a> when cursor is at position.</td>
+                <td data-label="Example" class="example">
+                    <div class="example-cell">
+                        <pre><code>
+*:hover {
+    color: green;
+}
+                        </code></pre>
+                        <button class="copy-btn" aria-label="Copy example">Copy</button>
+                    </div>
+                </td>
+	        </tr>
+	    </tbody>
+	</table>
 	
     <script>
         // Copy-to-clipboard handler for example code blocks
