@@ -170,7 +170,39 @@ a {
 .underline {
   text-decoration: underline;
 }
+.standard {
+  background-color: #ababab;
+  border: 1px solid #000000;
+}
+.standard:hover {
+  background-color: #828282;
+}
+.standard:active {
+  background-color: #ababab;
+}
 .skeuomorphic {
   background: linear-gradient(360deg, rgba(18, 59, 99, 1) 1%, rgba(34, 110, 186, 1) 100%);
   border: 2px solid #284e85;
+  transition: background: .25s;
+}
+.skeuomorphic:hover {
+  background: linear-gradient(360deg,rgba(9, 30, 51, 1) 0%, rgba(25, 81, 138, 1) 100%);
+  transition: background: .25s;
+}
+.skeuomorphic:active {
+  margin-top: 5px;
+  margin-bottom: -5px
+}
+.flat {
+  background-color: #0D73E0;
+  border: 0;
+  radius: 5px;
+  transition: background-color: .25s;
+}
+.flat:hover {
+  background-color: #0E4887;
+  transition: background-color: .25s;
+}
+.flat:active {
+  font-size: 4px
 }
