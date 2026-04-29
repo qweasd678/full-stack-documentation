@@ -171,6 +171,7 @@ a {
   text-decoration: underline;
 }
 .standard {
+  cursor: pointer;
   background-color: #ababab;
   border: 1px solid #000000;
 }
@@ -181,8 +182,10 @@ a {
   background-color: #ababab;
 }
 .skeuomorphic {
+  cursor: pointer;
   background: linear-gradient(360deg, rgba(18, 59, 99, 1) 1%, rgba(34, 110, 186, 1) 100%);
   border: 2px solid #284e85;
+  box-shadow: 0px 3px 4px black;
   transition: background: .25s;
 }
 .skeuomorphic:hover {
@@ -194,6 +197,7 @@ a {
   margin-bottom: -5px
 }
 .flat {
+  cursor: pointer;
   background-color: #0D73E0;
   border: 0;
   radius: 5px;
