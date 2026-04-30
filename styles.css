@@ -193,8 +193,8 @@ a {
   transition: background: .25s;
 }
 .skeuomorphic:active {
-  margin-top: 5px;
-  margin-bottom: -5px
+  margin-bottom: -3px
+  box-shadow: 0px 0px 4px black;
 }
 .flat {
   cursor: pointer;
