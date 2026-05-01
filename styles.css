@@ -208,5 +208,5 @@ a {
   transition: background-color: .25s;
 }
 .flat:active {
-  font-size: 4px
+  font-size: 4px;
 }
