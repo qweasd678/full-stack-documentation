@@ -204,7 +204,7 @@ a {
   cursor: pointer;
   background-color: #0D73E0;
   border: 0;
-  border-radius: 15px;
+  border-radius: 5px;
   transition: background-color: .25s;
   justify-content: center;   /* Centers text horizontally */
   align-items: center;       /* Centers text vertically */
@@ -215,5 +215,5 @@ a {
   transition: background-color: .25s;
 }
 .flat:active {
-  font-size: 4px;
+  border-radius: 0px;
 }
