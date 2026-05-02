@@ -88,6 +88,7 @@ td {
 td.example {
     width: auto; /* Allow the column to expand based on content */
     vertical-align: center; /* Center content vertically */
+    text-align: left;
     padding-left: 0px;
 }
 
