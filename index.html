@@ -584,6 +584,23 @@ Changes to hand cursor when hovered over the <a class="pointercursor">element</a
 	    </thead>
 	    <tbody>
 	        <tr>
+                <td>Standard styling</td>
+                <td>
+A standard on the button. Most software refer to this default styling. As you can see on the copy button, I prefer skeuomorphic-standard design.<br>
+<button class="standard">Try now</button>
+				</td>
+                <td class="example">
+                    <div class="example-cell">
+                        <pre><code>
+*:visited {
+    color: green;
+}
+                        </code></pre>
+                        <button class="copy-btn" aria-label="Copy example">Copy</button>
+                    </div>
+                </td>
+	        </tr>
+			<tr>
                 <td>Skeuomorphic styling</td>
                 <td>
 A 3D effect on the button. Traditional software used this realistic styling to teach users to press a button.<br>
@@ -601,9 +618,12 @@ A 3D effect on the button. Traditional software used this realistic styling to t
                 </td>
 	        </tr>
 			<tr>
-                <td data-label="Element">:hover</td>
-                <td data-label="Description">Changes style to the <a class="pseudohover">element</a> when cursor is at position.</td>
-                <td data-label="Example" class="example">
+                <td>Flat styling</td>
+                <td>
+A flat effect on the button. Modern software used this simple styling to maintain efficiency. This website, like any other of my stuff, sticks with more nostalgia though.<br>
+<button class="flat">Try now</button>
+				</td>
+                <td class="example">
                     <div class="example-cell">
                         <pre><code>
 *:hover {
