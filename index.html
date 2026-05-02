@@ -586,14 +586,24 @@ Changes to hand cursor when hovered over the <a class="pointercursor">element</a
 	        <tr>
                 <td>Standard styling</td>
                 <td>
-A standard on the button. Most software refer to this default styling. As you can see on the copy button, I prefer skeuomorphic-standard design.<br>
+A standard effect on the button. Most software refer to this default styling. As you can see on the copy button, I prefer skeuomorphic-standard design.<br>
 <button class="standard">Try now</button>
 				</td>
                 <td class="example">
                     <div class="example-cell">
                         <pre><code>
-*:visited {
-    color: green;
+.standard {
+  cursor: pointer;
+  background-color: #ababab;
+  border: 1px solid #000000;
+  color: #000000;
+  padding: 5px;
+}
+.standard:hover {
+  background-color: #828282;
+}
+.standard:active {
+  background-color: #ababab;
 }
                         </code></pre>
                         <button class="copy-btn" aria-label="Copy example">Copy</button>
@@ -620,7 +630,7 @@ A 3D effect on the button. Traditional software used this realistic styling to t
 			<tr>
                 <td>Flat styling</td>
                 <td>
-A flat effect on the button. Modern software used this simple styling to maintain efficiency. This website, like any other of my stuff, sticks with more nostalgia though.<br>
+A flat effect on the button. Modern software used this simple styling to maintain efficiency, though, this website, like any other of my stuff, sticks with more nostalgia.<br>
 <button class="flat">Try now</button>
 				</td>
                 <td class="example">
