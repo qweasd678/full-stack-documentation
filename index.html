@@ -619,8 +619,22 @@ A 3D effect on the button. Traditional software used this realistic styling to t
                 <td class="example">
                     <div class="example-cell">
                         <pre><code>
-*:visited {
-    color: green;
+.skeuomorphic {
+  cursor: pointer;
+  background: linear-gradient(360deg, rgba(18, 59, 99, 1) 1%, rgba(34, 110, 186, 1) 100%);
+  border: 2px solid #284e85;
+  box-shadow: 0px 3px 4px black;
+  transition: background: .25s;
+  padding: 5px;
+}
+.skeuomorphic:hover {
+  background: linear-gradient(360deg,rgba(9, 30, 51, 1) 0%, rgba(25, 81, 138, 1) 100%);
+  transition: background: .25s;
+}
+.skeuomorphic:active {
+  margin-top: 3px;
+  margin-bottom: -3px;
+  box-shadow: 0px 0px 4px black;
 }
                         </code></pre>
                         <button class="copy-btn" aria-label="Copy example">Copy</button>
