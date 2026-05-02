@@ -650,8 +650,22 @@ A flat effect on the button. Modern software used this simple styling to maintai
                 <td class="example">
                     <div class="example-cell">
                         <pre><code>
-*:hover {
-    color: green;
+.flat {
+  cursor: pointer;
+  background-color: #0D73E0;
+  border: 0;
+  border-radius: 5px;
+  transition: background-color: .25s;
+  justify-content: center;   /* Centers text horizontally */
+  align-items: center;       /* Centers text vertically */
+  padding: 5px;
+}
+.flat:hover {
+  background-color: #0E4887;
+  transition: background-color: .25s;
+}
+.flat:active {
+  border-radius: 0px;
 }
                         </code></pre>
                         <button class="copy-btn" aria-label="Copy example">Copy</button>
