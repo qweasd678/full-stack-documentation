@@ -119,6 +119,9 @@ th.example {
 }
 .copy-btn { background: linear-gradient(#596c8d, #313b4f); color: #fff; border: 2px solid #455a6f; padding: 7px 5px; margin: 3px 3px; border-radius: 0px; cursor: pointer; align-self: flex-end; /* Align the button to the bottom */
 }
+.copy-btn:hover {
+  text-decoration: underline;
+}
 .copy-btn:active { transform: translateY(2px); }
 td {
     min-height: 50px;
