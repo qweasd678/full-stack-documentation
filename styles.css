@@ -216,5 +216,5 @@ a {
   transition: background-color: .25s;
 }
 .flat:active {
-  border-radius: 0px;
+  background-color: #0D73E0;
 }
