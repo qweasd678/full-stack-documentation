@@ -117,7 +117,7 @@ th.example {
     max-width: 100%; /* Prevent pre from exceeding the cell width */
     white-space: pre-wrap; /* Allow wrapping inside pre */
 }
-.copy-btn { background: linear-gradient(#596c8d, #313b4f); color: #fff; border: 2px solid #455a6f; padding: 7px 5px; margin: 3px 3px; border-radius: 0px; cursor: pointer; align-self: flex-end; /* Align the button to the bottom */
+.copy-btn { background: linear-gradient(#596c8d, #313b4f); color: #fff; border: 2px solid #455a6f; padding: 7px 5px; margin: 3px 3px; border-radius: 0px; cursor: pointer; align-self: flex-end; /* Alig[...]
 }
 .copy-btn:hover {
   text-decoration: underline;
@@ -130,9 +130,7 @@ pre {
     white-space: pre-wrap;
 }
 code {
-  display: flex;
-  justify-content: left;   /* Centers text horizontally */
-  align-items: top;       /* Centers text vertically */
+  text-align: left;
 }
 th, td {
     word-wrap: break-word; /* Break long words to prevent overflow */
