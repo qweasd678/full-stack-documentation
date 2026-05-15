@@ -129,6 +129,11 @@ td {
 pre {
     white-space: pre-wrap;
 }
+code {
+  display: flex;
+  justify-content: left;   /* Centers text horizontally */
+  align-items: top;       /* Centers text vertically */
+}
 th, td {
     word-wrap: break-word; /* Break long words to prevent overflow */
 }
