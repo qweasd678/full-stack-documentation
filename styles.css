@@ -59,7 +59,7 @@ pre, code {
     border: none; /* Remove any borders */
 }
 
-code { font-family: "Courier New", Courier, monospace; font-size: 1.2em; }
+code { font-family: "Courier New", Courier, monospace; font-size: 1.2em; text-align: left !important; }
 
 th {
     background: linear-gradient(#3a4659, #2b3340);
@@ -88,7 +88,7 @@ td {
 td.example {
     width: auto; /* Allow the column to expand based on content */
     vertical-align: center; /* Center content vertically */
-    text-align: left !important;
+    text-align: left;
     padding-left: 0px;
 }
 
