@@ -88,7 +88,7 @@ td {
 td.example {
     width: auto; /* Allow the column to expand based on content */
     vertical-align: center; /* Center content vertically */
-    text-align: left;
+    text-align: left !important;
     padding-left: 0px;
 }
 
@@ -117,7 +117,7 @@ th.example {
     max-width: 100%; /* Prevent pre from exceeding the cell width */
     white-space: pre-wrap; /* Allow wrapping inside pre */
 }
-.copy-btn { background: linear-gradient(#596c8d, #313b4f); color: #fff; border: 2px solid #455a6f; padding: 7px 5px; margin: 3px 3px; border-radius: 0px; cursor: pointer; align-self: flex-end; /* Alig[...]
+.copy-btn { background: linear-gradient(#596c8d, #313b4f); color: #fff; border: 2px solid #455a6f; padding: 7px 5px; margin: 3px 3px; border-radius: 0px; cursor: pointer; align-self: flex-end; /* Alig */
 }
 .copy-btn:hover {
   text-decoration: underline;
