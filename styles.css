@@ -225,5 +225,5 @@ a {
   background-color: #0D73E0;
 }
 .textoutline {
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    text-shadow: -1px -1px 0 #00ff00, 1px -1px 0 #00ff00, -1px 1px 0 #00ff00, 1px 1px 0 #00ff00;
 }
