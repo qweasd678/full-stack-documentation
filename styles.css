@@ -223,6 +223,7 @@ a {
 }
 .flat:active {
   background-color: #0D73E0;
+  transition: background-color .0s;
 }
 .textoutline {
     text-shadow: -1px -1px 0 #00ff00, 1px -1px 0 #00ff00, -1px 1px 0 #00ff00, 1px 1px 0 #00ff00;
