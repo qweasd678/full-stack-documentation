@@ -619,6 +619,93 @@ div {
 	        </tr>
 	    </tbody>
 	</table>
+    <h4>align-items</h4>
+    <table>
+	    <thead>
+	        <tr>
+                <th>Value</th>
+                <th>Description</th>
+                <th>Example</th>
+	        </tr>
+	    </thead>
+	    <tbody>
+	        <tr>
+                <td>flex-start</td>
+                <td>Arranges the elements in the div horizontally starting from the top</td>
+                <td class="example">
+                    <div class="example-cell">
+                        <pre><code>
+div {
+    display: flex;
+    align-items: flex-start;
+}
+                        </code></pre>
+                        <button class="copy-btn" aria-label="Copy example">Copy</button>
+                    </div>
+                </td>
+	        </tr>
+            <tr>
+                <td>flex-end</td>
+                <td>Arranges the elements in the div horizontally ending on the bottom</td>
+                <td class="example">
+                    <div class="example-cell">
+                        <pre><code>
+div {
+    display: flex;
+    align-items: flex-end;
+}
+                        </code></pre>
+                        <button class="copy-btn" aria-label="Copy example">Copy</button>
+                    </div>
+                </td>
+	        </tr>
+            <tr>
+                <td>center</td>
+                <td>Arranges the elements in the div horizontally in the middle</td>
+                <td class="example">
+                    <div class="example-cell">
+                        <pre><code>
+div {
+    display: flex;
+    align-items: center;
+}
+                        </code></pre>
+                        <button class="copy-btn" aria-label="Copy example">Copy</button>
+                    </div>
+                </td>
+	        </tr>
+            <tr>
+                <td>baseline</td>
+                <td>Aligns the base of the elements in the div in a line. The content is still aligned to the top.</td>
+                <td class="example">
+                    <div class="example-cell">
+                        <pre><code>
+div {
+    display: flex;
+    align-items: baseline;
+}
+                        </code></pre>
+                        <button class="copy-btn" aria-label="Copy example">Copy</button>
+                    </div>
+                </td>
+	        </tr>
+            <tr>
+                <td>stretch</td>
+                <td>Streches the elements in the div from top to bottom. <a id="important_a">Applies only if only min-height of the elements in the div is set</a></td>
+                <td class="example">
+                    <div class="example-cell">
+                        <pre><code>
+div {
+    display: flex;
+    align-items: stretch;
+}
+                        </code></pre>
+                        <button class="copy-btn" aria-label="Copy example">Copy</button>
+                    </div>
+                </td>
+	        </tr>
+	    </tbody>
+	</table>
 	<h3>Pseudo-class elements <a id="important_a">(To be assigned in this exact order to cascade properly)</a></h3>
 		<table>
 	    <thead>
